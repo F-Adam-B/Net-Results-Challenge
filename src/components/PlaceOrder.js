@@ -72,7 +72,6 @@ class PlaceOrder extends Component {
 		));
 
 		let price = Math.floor(Math.random() * 10) + 20;
-		console.log('price: ', price);
 
 		return (
 			<div className="container">
