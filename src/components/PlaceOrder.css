@@ -1,0 +1,64 @@
+.container {
+	text-align: center;
+}
+
+.order-container {
+	margin: auto;
+	max-width: 30%;
+	margin-top: 100px;
+	padding-bottom: 20px;
+	height: 500px;
+	background-color: whitesmoke;
+	color: black;
+	border: 1px solid black;
+}
+
+.order-container-header {
+	padding-top: 30px;
+	height: 50px;
+	background-color: #005e89;
+	color: whitesmoke;
+}
+
+.price {
+	margin-top: 10px;
+	font-size: 1.5em;
+	text-align: center;
+}
+
+ul {
+	list-style-type: none;
+}
+
+button {
+	margin-top: 5px;
+}
+
+.topping-amount-wrapper,
+.crust-size-container {
+	display: flex;
+	justify-content: center;
+}
+
+.topping-amount-wrapper {
+	height: 400px;
+}
+
+.crust-text,
+.size-text {
+	font-weight: bold;
+}
+
+.order-placed-text {
+	margin-bottom: 5px;
+}
+
+.topping-list,
+.amount-list {
+	padding-left: 0;
+}
+
+.amount-wrapper,
+.size-wrapper {
+	margin-left: 20px;
+}
